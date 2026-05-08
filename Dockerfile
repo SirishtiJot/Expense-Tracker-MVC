@@ -23,8 +23,7 @@ WORKDIR /app
 COPY --from=build /app ./
 
 # Railway/Render Port setup
-ENV ASPNETCORE_URLS=http://+:8080
-EXPOSE 8080
+ENV ASPNETCORE_URLS=http://+:${PORT:-8080}
 
 # Use quotes for the DLL name because of the space
 ENTRYPOINT ["dotnet", "Expense Tracker.dll"]
