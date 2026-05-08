@@ -1,4 +1,4 @@
-# 📊 Expense Tracker Pro
+# 📊 Expense Tracker 
 
 A specialized full-stack application designed to manage personal finance inventories with a focus on clean architecture, secure data handling, and responsive aesthetics.
 
