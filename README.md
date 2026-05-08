@@ -1,41 +1,22 @@
-# Expense-Tracker-App-in-Asp.Net-Core-MVC
-This is an Expense Tracker App in Asp.Net Core MVC using SyncFusion Components.
+# 💰 Expense Tracker Web App
 
-This is a complete Asp.Net Core application to demonstrate the building an enterprise application from scratch.
+Managing personal finances shouldn't be complicated. I built this web application to help users move away from manual tracking and get a clear, visual look at their spending habits. 
 
-Discussed Points :
-Implemented CRUD Operation of Category & Transaction
-Grid with Paging & Sorting
-Dashboard with Chart Elements
-Side Menu within Dockable Side Bar
-Etc.
+### 🚀 Key Features
+* [cite_start]**Full Financial Tracking:** Easily log your daily expenses and monthly income to see where your money goes[cite: 22, 24].
+* [cite_start]**Smart Categorization:** Group spending into categories like Food, Bills, Shopping, or Transport for better analysis[cite: 41].
+* [cite_start]**Visual Insights:** I integrated **Chart.js** to generate interactive pie and bar charts for real-time spend analytics[cite: 45, 56].
+* [cite_start]**Secure Accounts:** Uses **ASP.NET Identity** to ensure user data is private and securely encrypted[cite: 37, 55].
+* [cite_start]**Responsive Design:** Built with **Bootstrap 5**, so it works perfectly on your phone, tablet, or desktop[cite: 28, 51].
 
+### 🛠️ Tech Stack I Used
+* [cite_start]**Backend:** ASP.NET Core MVC (C#) [cite: 52]
+* [cite_start]**Database:** Microsoft SQL Server with Entity Framework Core [cite: 53, 54]
+* [cite_start]**Frontend:** HTML5, CSS3, Bootstrap 5, and JavaScript [cite: 51]
+* [cite_start]**Data Viz:** Chart.js [cite: 56]
 
+### 📖 How I Developed It
+[cite_start]Following the **SDLC** (Software Development Life Cycle), I started by mapping out the requirements and designing the database schema (ERDs)[cite: 60, 63]. [cite_start]I then focused on building a modular architecture to ensure the app is scalable and easy to maintain[cite: 66, 87].
 
- ## How it works ?
- 
- :tv: Video tutorial on this same topic
- Url : https://youtu.be/zQ5eijfpuu8
- 
- <a href="http://www.youtube.com/watch?feature=player_embedded&v=zQ5eijfpuu8
-" target="_blank"><img src="http://img.youtube.com/vi/zQ5eijfpuu8/0.jpg" 
-alt="Video demonstrating creation of an expense tracker application from scratch" width="500" height="400" border="10" /></a>
-
-
-| :bar_chart:               |  List of Tutorials   |   | :moneybag:           | Support Us                           |
-|--------------------------:|:---------------------|---|---------------------:|:-------------------------------------|
-| Angular                   |http://bit.ly/2KQN9xF |   |Paypal                | https://goo.gl/bPcyXW                |
-| Asp.Net Core              |http://bit.ly/30fPDMg |   |Amazon   Affiliate    | https://geni.us/JDzpE                |
-| React                     |http://bit.ly/325temF |   |
-| Python                    |http://bit.ly/2ws4utg |   | :point_right:        | Follow Us                            |
-| Node.js                   |https://goo.gl/viJcFs |   |Website               |http://www.codaffection.com          |
-| Asp.Net MVC               |https://goo.gl/gvjUJ7 |   |YouTube               |https://www.youtube.com/codaffection  |
-| Flutter                   |https://bit.ly/3ggmmJz|   |Facebook              |https://www.facebook.com/codaffection |
-| Web API                   |https://goo.gl/itVayJ |   |Twitter               |https://twitter.com/CodAffection      |
-| MEAN Stack                |https://goo.gl/YJPPAH |   |
-| C# Tutorial               |https://goo.gl/s1zJxo |   |
-| Asp.Net WebForm           |https://goo.gl/GXC2aJ |   |
-| C# WinForm                |https://goo.gl/vHS9Hd |   |
-| MS SQL                    |https://goo.gl/MLYS9e |   |
-| Crystal Report            |https://goo.gl/5Vou7t |   |
-| CG Exercises in C Program |https://goo.gl/qEWJCs |   |
+---
+*Developed as part of my academic journey at SZABIST Karachi.*
