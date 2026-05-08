@@ -1,22 +1,27 @@
-# 💰 Expense Tracker Web App
+# 📊 Expense Tracker Pro
 
-Managing personal finances shouldn't be complicated. I built this web application to help users move away from manual tracking and get a clear, visual look at their spending habits. 
+A specialized full-stack application designed to manage personal finance inventories with a focus on clean architecture, secure data handling, and responsive aesthetics.
+
+### 🏛️ Architectural Decisions
+* **MVC Pattern:** Utilized the Model-View-Controller architecture to ensure a clear separation of concerns between business logic and UI.
+* **Database Schema Design:** Leveraged **SQL Server** with **Entity Framework Core** to handle structured financial data, ensuring ACID compliance for sensitive transaction records.
+* **Security Implementation:** Integrated **ASP.NET Identity** for robust user authentication and role-based access control.
 
 ### 🚀 Key Features
-* [cite_start]**Full Financial Tracking:** Easily log your daily expenses and monthly income to see where your money goes[cite: 22, 24].
-* [cite_start]**Smart Categorization:** Group spending into categories like Food, Bills, Shopping, or Transport for better analysis[cite: 41].
-* [cite_start]**Visual Insights:** I integrated **Chart.js** to generate interactive pie and bar charts for real-time spend analytics[cite: 45, 56].
-* [cite_start]**Secure Accounts:** Uses **ASP.NET Identity** to ensure user data is private and securely encrypted[cite: 37, 55].
-* [cite_start]**Responsive Design:** Built with **Bootstrap 5**, so it works perfectly on your phone, tablet, or desktop[cite: 28, 51].
+* **Real-time CRUD:** Seamlessly create, read, update, and delete expenses with immediate UI feedback.
+* **Financial Visualizations:** Implemented interactive charts using **Chart.js** to provide monthly and category-wise spending breakdowns.
+* **Responsive Architecture:** Optimized with **Bootstrap 5** for mobile, tablet, and desktop viewing.
 
-### 🛠️ Tech Stack I Used
-* [cite_start]**Backend:** ASP.NET Core MVC (C#) [cite: 52]
-* [cite_start]**Database:** Microsoft SQL Server with Entity Framework Core [cite: 53, 54]
-* [cite_start]**Frontend:** HTML5, CSS3, Bootstrap 5, and JavaScript [cite: 51]
-* [cite_start]**Data Viz:** Chart.js [cite: 56]
+### 🛠️ Tech Stack
+* **Backend:** ASP.NET Core MVC (C#)
+* **Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5
+* **Database:** Microsoft SQL Server
+* **ORM:** Entity Framework Core
 
-### 📖 How I Developed It
-[cite_start]Following the **SDLC** (Software Development Life Cycle), I started by mapping out the requirements and designing the database schema (ERDs)[cite: 60, 63]. [cite_start]I then focused on building a modular architecture to ensure the app is scalable and easy to maintain[cite: 66, 87].
+### 📈 Scalability Roadmap
+* **CI/CD Integration:** Setting up GitHub Actions for automated testing and deployment.
+* **API Expansion:** Developing a RESTful API layer to support potential mobile app integration in the future.
+* **Advanced Analytics:** Implementing AI-driven spending predictions based on historical user data.
 
 ---
 *Developed as part of my academic journey at SZABIST Karachi.*
